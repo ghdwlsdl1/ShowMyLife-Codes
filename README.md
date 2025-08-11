@@ -116,7 +116,7 @@ Unity 기반 ShowMyLife 프로젝트에서 직접 제작한 게임 핵심 시스
 ---
 
 ## 기술 스택
-- Unity 202X
+- Unity 2022.3.17f1
 - C#
 - Cinemachine
 - DG.Tweening
