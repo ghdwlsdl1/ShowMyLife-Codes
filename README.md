@@ -98,8 +98,9 @@ Unity 기반 ShowMyLife 프로젝트에서 직접 제작한 게임 핵심 시스
 - EmotionDirector의 공용 함수만을 사용해 유지보수성 강화
 
 ### 4. Editor Tools
-- 머티리얼 자동 변환 (HDRP → URP Lit)
+- 머티리얼 자동 변환 (URP Lit)
 - 알베도/노멀/메탈릭/마스크 자동 매핑
+  
 - 런타임 DebugWindow로 세이브 데이터 확인, 이동, 삭제 가능
 
 ---
