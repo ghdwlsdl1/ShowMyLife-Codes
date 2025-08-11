@@ -77,14 +77,13 @@ Unity 기반 ShowMyLife 프로젝트에서 직접 제작한 게임 핵심 시스
 
 ## 주요 기능 설명
 
-### 1. Object Pool & Save System
-- 오브젝트를 동적으로 생성/반환하여 성능 최적화
-- 씬 전환 시에도 유지(DontDestroyOnLoad)
+### 1. Save System
 - JSON 저장/로드
 - SavePoint와 연동해 위치 + 상태 저장
 - Gizmos로 세이브 범위 시각화
 
 ### 2. Cinematic System
+- 시네머신 카메라 조작
 - 카메라 전환 (플레이어 ↔ 테마 카메라)
 - Sweep, Dolly Zoom, Move Camera, FOV Zoom, Rotate Look
 - 시간 연출(TimeScale 변경)
@@ -98,10 +97,13 @@ Unity 기반 ShowMyLife 프로젝트에서 직접 제작한 게임 핵심 시스
 - EmotionDirector의 공용 함수만을 사용해 유지보수성 강화
 
 ### 4. Editor Tools
-- 머티리얼 자동 변환 (URP Lit)
-- 알베도/노멀/메탈릭/마스크 자동 매핑
+- URPMaterialConverter 머티리얼 자동 변환 (URP Lit) 알베도/노멀/메탈릭/마스크 자동 매핑
   
-- 런타임 DebugWindow로 세이브 데이터 확인, 이동, 삭제 가능
+- DebugWindow 런타임으로 세이브 데이터 확인, 이동, 삭제 가능
+
+### 5. Object Pool
+- 오브젝트를 동적으로 생성/반환하여 성능 최적화
+- 씬 전환 시에도 유지(DontDestroyOnLoad)
 
 ---
 
